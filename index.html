@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/font-awesome.css"
+    integrity="sha512-YX9NLok9RLg+o5JkA2Whp1kPDCBCEUolTyYykJVOe1xcaTNebXU/x02TxV0LpVYqVNJV5NVjyoMW0jHnJWICKg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+              <div class="navbar">
+                <input type="checkbox" name="" id="menu-hamburgue" />
+                <label class="menuHamburgue" for="menu-hamburgue">
+                  <div class="menu">
+                    <span class="hamburgue"> </span>
+                  </div>
+                </label>
+                <div class="nav-logo">
+                    <a href="index.html">
+                      <!-- <img src="assets/img/logoetec.png" alt="logo da site" /> -->
+                      <h1 class="navLogo">Study.io</h1>
+                    </a>
+                  </div>
+                <div class="nav-links">
+                  <div class="sidebar-itens">
+                    <div class="user">
+                      <a href="login.html">
+                        <i class="bx bxs-user-circle"></i><span>Login</span>
+                      </a>
+                    </div>
+                    <!-- <div>
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                    </div> -->
+                  </div>
+                  <ul class="links">
+                    <li>
+                      <a class="nav-a" href="index.html" rel="next">Home</a>
+                    </li>
+                   
+                    <li>
+                      <a href="#" rel="next">Acessibilidade</a>
+                      <i class="bx bxs-chevron-down arrow htmlcss-arrow"></i>
+                      <ul class="htmlcss-sub-menu sub-menu">
+                        <li><a href="#">Tdah</a></li>
+                        <li><a href="#">Autismo</a></li>
+                        <li><a href="#">Sindrome de Dohn </a></li>
+                       
+                      </ul>
+                    </li>
+                    <li>
+                        <a class="nav-a" href="index.html" rel="next"
+                          >Sobre</a
+                        >
+                      </li>
+                    <li>
+                      <a class="nav-a" href="index.html" rel="next">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-canto">
+                  <div class="nav-button">
+                    <a href="login.html" class="btt-login btt">
+                      <svg
+                        class="icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 14 14"
+                        data-v-fafe0f56=""
+                      >
+                        <g transform="translate(0)" data-v-fafe0f56="">
+                          <path
+                            class="a"
+                            d="M3.6,12.906H1.66a.556.556,0,0,1-.437-.208.571.571,0,0,1-.116-.479A6.042,6.042,0,0,1,6.861,7.435l.139,0,.141,0a5.99,5.99,0,0,1,1.975.381A.547.547,0,1,0,9.5,6.791q-.136-.051-.273-.1a3.719,3.719,0,1,0-4.452,0A7.112,7.112,0,0,0,.036,12,1.661,1.661,0,0,0,1.66,14H3.6a.547.547,0,0,0,0-1.094Zm.779-9.188A2.625,2.625,0,1,1,7.128,6.341H6.872A2.628,2.628,0,0,1,4.375,3.719Z"
+                            transform="translate(0)"
+                            data-v-fafe0f56=""
+                          ></path>
+                          <path
+                            class="a"
+                            d="M155.589,313.864a1.473,1.473,0,0,0-1.345-.864h-1.709a1.448,1.448,0,0,0-1.368.924c-.029.075-.064.169-.1.279h-3.581a.547.547,0,0,0-.392.166l-.939.968a.547.547,0,0,0,0,.764l.957.974a.547.547,0,0,0,.39.164h1.777a.547.547,0,0,0,0-1.094h-1.548l-.422-.429.406-.418h3.76a.547.547,0,0,0,.531-.417,4.516,4.516,0,0,1,.18-.563.358.358,0,0,1,.348-.223h1.707a.373.373,0,0,1,.347.217,3.532,3.532,0,0,1,.323,1.394,3.636,3.636,0,0,1-.321,1.419.373.373,0,0,1-.343.224h-1.727a.389.389,0,0,1-.353-.242,3.636,3.636,0,0,1-.169-.541.547.547,0,1,0-1.064.255,4.7,4.7,0,0,0,.222.7,1.475,1.475,0,0,0,1.362.919h1.73a1.466,1.466,0,0,0,1.345-.88,4.734,4.734,0,0,0,.412-1.859A4.63,4.63,0,0,0,155.589,313.864Z"
+                            transform="translate(-142.007 -304.441)"
+                            data-v-fafe0f56=""
+                          ></path>
+                          <circle
+                            class="a"
+                            cx="0.547"
+                            cy="0.547"
+                            r="0.547"
+                            transform="translate(11.238 10.719)"
+                          ></circle>
+                        </g>
+                      </svg>
+                      Login
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <section class="imagem" id="img01">
+                <div class="content">
+                    <p >Neurociência
+                    </p>
+                </div>
+            </section>
+        </header>
+    
+        <!-- <div class='barra-sociais' style="line-height: 32px;">
+            <a class="btt_facebook" target="_blank" rel="nofollow noopener" href="/#facebook"><span class="a2a_svg a2a_s__default a2a_s_facebook" style="background-color: rgb(8, 102, 255);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span><span class="a2a_label">Facebook</span></a>
+            <a class="btt_twitter" target="_blank" rel="nofollow noopener" href="/#twitter"><span class="a2a_svg a2a_s__default a2a_s_twitter" style="background-color: rgb(29, 155, 240);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#FFF" d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z"></path></svg></span><span class="a2a_label">Twitter</span></a>
+            <a class="btt_google_plus"></a>
+            <a class="btt_linkedin" target="_blank" rel="nofollow noopener" href="/#linkedin"><span class="a2a_svg a2a_s__default a2a_s_linkedin" style="background-color: rgb(0, 123, 181);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#FFF" d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z"></path></svg></span><span class="a2a_label">LinkedIn</span></a>
+            <a class="btt_whatsapp" target="_blank" rel="nofollow noopener" href="/#whatsapp"><span class="a2a_svg a2a_s__default a2a_s_whatsapp" style="background-color: rgb(18, 175, 10);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#FFF" fill-rule="evenodd" d="M16.21 4.41C9.973 4.41 4.917 9.465 4.917 15.7c0 2.134.592 4.13 1.62 5.832L4.5 27.59l6.25-2.002a11.241 11.241 0 0 0 5.46 1.404c6.234 0 11.29-5.055 11.29-11.29 0-6.237-5.056-11.292-11.29-11.292zm0 20.69c-1.91 0-3.69-.57-5.173-1.553l-3.61 1.156 1.173-3.49a9.345 9.345 0 0 1-1.79-5.512c0-5.18 4.217-9.4 9.4-9.4 5.183 0 9.397 4.22 9.397 9.4 0 5.188-4.214 9.4-9.398 9.4zm5.293-6.832c-.284-.155-1.673-.906-1.934-1.012-.265-.106-.455-.16-.658.12s-.78.91-.954 1.096c-.176.186-.345.203-.628.048-.282-.154-1.2-.494-2.264-1.517-.83-.795-1.373-1.76-1.53-2.055-.158-.295 0-.445.15-.584.134-.124.3-.326.45-.488.15-.163.203-.28.306-.47.104-.19.06-.36-.005-.506-.066-.147-.59-1.587-.81-2.173-.218-.586-.46-.498-.63-.505-.168-.007-.358-.038-.55-.045-.19-.007-.51.054-.78.332-.277.274-1.05.943-1.1 2.362-.055 1.418.926 2.826 1.064 3.023.137.2 1.874 3.272 4.76 4.537 2.888 1.264 2.9.878 3.43.85.53-.027 1.734-.633 2-1.297.266-.664.287-1.24.22-1.363-.07-.123-.26-.203-.54-.357z" clip-rule="evenodd"></path></svg></span><span class="a2a_label">WhatsApp</span></a>
+            <a class="btt_email" target="_blank" rel="nofollow noopener" href="/#email"><span class="a2a_svg a2a_s__default a2a_s_email" style="background-color: rgb(136, 137, 144);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M27 21.775v-9.9s-10.01 6.985-10.982 7.348C15.058 18.878 5 11.875 5 11.875v9.9c0 1.375.293 1.65 1.65 1.65h18.7c1.393 0 1.65-.242 1.65-1.65Zm-.017-11.841c0-1.002-.291-1.359-1.633-1.359H6.65c-1.38 0-1.65.429-1.65 1.43l.016.154s9.939 6.842 11 7.216C17.14 16.941 27 10.005 27 10.005l-.017-.072Z"></path></svg></span><span class="a2a_label">Email</span></a>
+            <a class="btt_google_gmail" target="_blank" rel="nofollow noopener" href="/#google_gmail"><span class="a2a_svg a2a_s__default a2a_s_gmail" style="background-color: rgb(234, 67, 53);"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M6.5 24.504H10v-8.5l-5-3.75v10.75c0 .83.673 1.5 1.5 1.5Zm15.5 0h3.5a1.5 1.5 0 0 0 1.5-1.5v-10.75l-5 3.75" opacity=".9"></path><path fill="#fff" d="M22 9.504v6.5l5-3.75v-2c0-1.855-2.117-2.912-3.6-1.8"></path><path fill="#fff" d="M10 16.004v-6.5l6 4.5 6-4.5v6.5l-6 4.5" opacity=".9"></path><path fill="#fff" d="M5 10.254v2l5 3.75v-6.5l-1.4-1.05C7.115 7.342 5 8.4 5 10.254Z"></path></svg></span><span class="a2a_label">Gmail</span></a>
+            <div style="clear: both;"></div>
+        </div> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <main>
+            <article>
+                <section class="conteudo inicio">
+                    <h2>Quais aplicativo ajudam pessoas com deficiências cognitivas ?</h2>
+                    <p>A tecnologia tem sido uma grande aliada no desenvolvimento de aplicativos para auxiliar pessoas com deficiência cognitiva, TDAH, entre outros. </p>
+                    <p>Esses aplicativos podem ajudar a melhorar a qualidade de vida dessas pessoas. Estudos mostram que esses aplicativos podem ajudar a melhorar a memória, a atenção e a concentração dos usuários. </p>
+                  
+                    <ul> 
+                        <h4> Abaixo estão 5 appps que mudaram a vida dse pessoas com TDAH: </h4>
+                        <li><a href="#">HelloSelf</a></li>
+                        <li><a href="#">Sidekick</a></li>
+                        <li><a href="#">Numo</a></li>
+                    </ul>
+                </section>
+                <section class="conteudo">
+                    <h2>HelloSelf</h2>
+                    <p>
+                        O aplicativo <a target="_blank" href="https://www.helloself.com/">HelloSelf</a> é um aplicativo criado por uma startup com sede em Londres. O objetivo do aplicativo é criar uma ponte entre pacientes e terapeutas licenciados. A plataforma oferece sessões de terapia individuais e atividades para melhorar o “senso de identidade” dos usuários.
+                    </p>
+                   
+                    <figure>
+                    <img src="https://www.uktech.news/wp-content/uploads/2021/03/HelloSelf.jpg" />
+                    <figcaption>
+                        layout do app HelloSelf
+                    </figcaption>
+                    </figure>
+                </section>
+                <section class="conteudo">
+                    <h2>Sidekick</h2>
+                    <p>
+                        O aplicativo <a target="_blank" href="https://www.meetsidekick.com/">Sidekick</a> é um navegador que ajuda pessoas com TDAH a reduzir o ruído online. Ele elimina os anúncios para que os usuários não desviem a atenção enquanto pesquisam na web. O aplicativo incorpora o AdBlock 2.0, um timer com modo de foco que desativa todos os sons e um gerenciador de tarefas diário. Ele ainda oferece um temporizador Pomodoro, que divide o trabalho em períodos de 25 minutos separados por breves intervalos. O navegador também afirma que roda até três vezes mais rápido que o Google Chrome, o que é essencial evitar distrações em pessoas com TDAH.
+                    </p>
+                  
+                    <div class="video">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2GCRtqSQTmI?si=QhcAkTBBWFvB7WvP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </section>
+                <section class="conteudo">
+                    <h2>Numo</h2>
+                    <p>
+                        O aplicativo <a target="_blank" href="https://usenumo.com.br/">Numo</a> é um aplicativo que ajuda pessoas com TDAH a gerenciar suas finanças. Ele permite que os usuários criem orçamentos, monitorem suas despesas e receitas e recebam alertas quando estiverem se aproximando de seus limites de gastos.
+                    </p>
+                  
+                    <figure>
+                        <img src="https://assets-global.website-files.com/63a48163cbe18f8000deaa81/64467bed47262613e173ec3a_Numo_3.5.png" />
+                        <figcaption>
+                            O surgimento dos eSports é anterior ao que muitos acham
+                        </figcaption>
+                        </figure>
+                </section>
+                <section class="conteudo fim">
+                    <h2>Conclusão</h2>
+                    <p>
+                        Os aplicativos apresentados neste relatório são apenas alguns exemplos de como a tecnologia pode ajudar pessoas com deficiência cognitiva, TDAH, entre outros, a melhorar seu raciocínio lógico e aprendizagem. É importante continuar desenvolvendo aplicativos que possam ajudar essas pessoas a ter uma melhor qualidade de vida.                    <p>Esses aplicativos podem ajudar a melhorar a qualidade de vida dessas pessoas. Estudos mostram que esses aplicativos podem ajudar a melhorar a memória, a atenção e a concentração dos usuários. 
+                    </p>
+                  
+                  
+                </section>
+                <section class="box-img">
+                    <div class="album">
+                    <div class="card-foto box1">
+                        <div class="desc-foto">
+                        <h1>Apps como Sidekick e Numo visam atrair a atenção de adultos com TDAH </h1>
+                        <span>
+                          Exclusivo para TDAH: veja apps feitos para pessoas com o transtorno
+                        </span>
+                        
+                        </div>
+                        <div class="img-foto">
+                        <a target="_blank" href="https://gizmodo.uol.com.br/exclusivo-para-tdah-veja-apps-feitos-para-pessoas-com-o-transtorno/#:~:text=HelloSelf%20Entre%20os%20apps%20para%20combater%20os%20sintomas,para%20melhorar%20o%20%E2%80%9Csenso%20de%20identidade%E2%80%9D%20dos%20usu%C3%A1rios.">
+                                                  <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2023/03/tdah.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card-foto box2">
+                        <div class="desc-foto">
+                        <h2>7 apps que ajudam pessoas com deficiência.</h2>
+                        <span>
+                          Confira alguns dos aplicativos de tecnologia assistiva.
+                        </span>
+                        
+                        </div>
+                        <div class="img-foto box3">
+                        <a target="_blank" href="https://tix.life/tecnologia-assistiva/7-aplicativos-gratuitos-para-ajudar-as-pessoas-com-deficiencia/">
+                          
+                          <img src="https://tix.life/wp-content/uploads/2019/04/HIGH-Close-up-Android-smartphone-transparente-1024x683.png" alt="" /> </a>
+                        </div>
+                    </div>
+                    <div class="card-foto box3">
+                        <div class="desc-foto">
+                        <h2>Apps transformam rotina de pessoas com autismo</h2>
+                        <span>
+                          Aplicativos podem ajudar a transformar a rotina das pessoas com Transtorno do Espectro Autista (TEA)
+                        </span>
+                        
+                        </div>
+                        <div class="img-foto">
+                        <a target="_blank" href="https://autismoerealidade.org.br/2020/05/27/apps-transformam-rotina-de-pessoas-com-autismo/">
+                          <img src="data:image/jpeg;base64,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" alt="" /> </a>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <div class="perg">
+                    <div class="desc">
+                        <h2>Perguntas Frequentes</h2>
+                    </div>
+                    <section class="conteiner-perg">
+                        <details class="box-perg">
+                        <summary class="pergunta">
+                            <h3>O que causa o TDAH?</h3>
+                            <i class="bx bxs-chevron-down bottom"></i>
+                        </summary>
+                        <div class="resposta">
+                            <p>
+                              Ainda não se sabe o que realmente ocasiona o aparecimento do TDAH, porém estudos recentes revelam o fator genetico como sendo a principal causa.
+                            </p>
+                        </div>
+                        </details>
+                        <details class="box-perg">
+                            <summary class="pergunta">
+                                <h3>Quais os riscos que o transtorno de deficit de oferece?</h3>
+                                <i class="bx bxs-chevron-down bottom"></i>
+                            </summary>
+                            <div class="resposta">
+                                <p>
+                                  Os portadores de TDAH frequentemente apresentam problemas com relação ao desempenho acadêmico, auto-estima, relações sociais, abuso de álcool e drogas, pré disposição a distúrbios psiquiátricos entre outros.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="box-perg">
+                                <summary class="pergunta">
+                                    <h3>Qual o profissional que devo buscar quando se trata de diagnóstico do transtorno de deficit de atenção?</h3>
+                                    <i class="bx bxs-chevron-down bottom"></i>
+                                </summary>
+                                <div class="resposta">
+                                    <p>
+                                      Um profissional da saúde mental que tenha amplos conhecimentos com relação ao transtorno de preferência um psicólogo, psiquiatra ou neurologista Há que se ter cuidado na escolha, pois, por se tartar de uma patologia recentemente descoberta, muitos são os profissionais que nunca nem ouviram falar do transtorno. Busque um profissional que se atualize frequentemente.
+                                    </p>
+                                </div>
+                        </details>
+                        <details class="box-perg">
+                                    <summary class="pergunta">
+                                        <h3>Existe a possibilidade de tratamento de TDAH sem medicação?</h3>
+                                        <i class="bx bxs-chevron-down bottom"></i>
+                                    </summary>
+                                    <div class="resposta">
+                                        <p>
+                                          Sim, principalmente quando o nível de comprometimento não tem maiores impactos na vida social e acadêmica. Uma psicoterapia bem conduzida pode trazer benefícios significativos para a vida do portador de TDAH.
+                                        </p>
+                                    </div>
+                        </details>
+                    </section>
+                </div>
+            </article>
+
+            <aside>
+                <div>
+                <a href=""
+                    ><img class="panfleto" src="https://lh6.googleusercontent.com/2g3Qin3yQRLm9kwRR8VA_z9CEgV0cF20u7mdGYDP-1fWL3UF9kOv_QrEKEObPDl7Zruda9MC8BkYe0yG4EpCL5iIPhgCN-if-C1qLp7C41LYhjZdeV2urjk5NF3OoBTeNwZ799t3_I9qb-qrPC_VqWoqrUACaAjxF_V9RcybQLfWPRytIeySo6Eabg"
+                /></a>
+                </div>
+                <div class="aside-post">
+                <h2>Posts em Destaque</h2>
+                <ul>
+                    <li>
+                    <a href="#">
+                        <img src="https://www.skprojetos.com.br/anistia/wp-content/uploads/2019/08/SK-acessibilidade-nas-escolas-1000x675.jpg" class="img-post" />Estudo mostra como não ter atenção desviada das tarefas e manter o foco
+                        
+                    </a>
+                    </li>
+                    <li>
+                    <a href="#">
+                        <img src="https://www.skprojetos.com.br/anistia/wp-content/uploads/2019/08/SK-acessibilidade-nas-escolas-1000x675.jpg" class="img-post" />Diagnóstico tardio de TDAH em mulheres
+                        
+                    </a>
+                    </li>
+                    <li>
+                    <a href="#">
+                        <img src="https://www.skprojetos.com.br/anistia/wp-content/uploads/2019/08/SK-acessibilidade-nas-escolas-1000x675.jpg" class="img-post" />Música pode melhorar desempenho de crianças com déficit de atenção
+                        
+                    </a>
+                    </li>
+    
+                    <li>
+                    <a href="#">
+                        <img src="https://www.skprojetos.com.br/anistia/wp-content/uploads/2019/08/SK-acessibilidade-nas-escolas-1000x675.jpg" class="img-post" />TDAH: o que é, 27 sintomas, tratamentos e medicamento
+                        
+                    </a>
+                    </li>
+                
+                </ul>
+                <a href="#"
+                    ><button class="btn-post">Veja mais do assunto</button></a
+                >
+                </div>
+               
+            </aside>
+            
+        </main>
+          <footer>
+            <div id="footer">
+                <div class="footer-logo">
+                    <a href="index.html">
+                       <!-- <img src="assets/img/logoetec.png" alt="logo da site" /> -->
+                      <h1 class="footerLogo">Study.io</h1>
+                    </a>
+                  </div>
+              <div class="footer-link">
+                <div class="footer-lista">
+                  <ul>
+                    <li><b>Atendimento</b></li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Política de Vendas, Trocas e Privacidade</a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Termos e condições de compra</a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Fale conosco</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li><b>Institucional</b></li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Sobre a livraria</a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Livraria Plus</a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="author">Relações com Investidores</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="fotter-fotter">
+                <div class="efBApl">
+                  <div class="jHTgmc">
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Home</a>
+                    </h5>
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Sobre</a>
+                    </h5>
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Blog</a>
+                    </h5>
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Carreiras</a>
+                    </h5>
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Termos e Políticas</a>
+                    </h5>
+                    <h5>
+                      <a target="_blank" href="#" rel="noopener noreferrer">Ética e conduta</a>
+                    </h5>
+                  </div>
+                  <ul class="kqrytd">
+                    <li>
+                      <a target="_blank" href="http://www.facebook.com" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                          <path fill-rule="evenodd"
+                            d="M12 2.5c-5.225 0-9.5 4.306-9.5 9.568 0 4.785 3.46 8.749 8.007 9.432v-6.698H8.132v-2.734h2.443V9.95c0-2.392 1.425-3.691 3.596-3.691 1.018 0 2.104.205 2.104.205v2.324h-1.221c-1.154 0-1.561.752-1.561 1.503v1.777h2.646l-.407 2.734h-2.24V21.5c4.547-.683 8.008-4.647 8.008-9.432C21.5 6.806 17.225 2.5 12 2.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://twitter.com" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                          <path fill="#191F28" fill-rule="nonzero"
+                            d="M21 6.846c-.525.77-1.125 1.462-1.875 1.923v.462c0 5-3.75 10.769-10.5 10.769-2.1 0-4.05-.615-5.625-1.692.3 0 .6.077.9.077 1.725 0 3.3-.616 4.575-1.616-1.65 0-3-1.154-3.45-2.615.225.077.45.077.675.077.3 0 .675-.077.975-.154-1.725-.308-3-1.846-3-3.692v-.077a3.15 3.15 0 0 0 1.65.461c-.9-.692-1.575-1.846-1.575-3.154 0-.692.15-1.384.525-1.923a10.305 10.305 0 0 0 7.575 3.923c-.075-.307-.075-.538-.075-.846C11.775 6.692 13.425 5 15.45 5c1.05 0 2.025.462 2.7 1.23.825-.153 1.65-.46 2.325-.922-.3.846-.825 1.615-1.65 2.077.825-.077 1.5-.231 2.175-.539z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.instagram.com" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <path fill="#191F28" fill-rule="evenodd"
+                            d="M19.921 7a5.004 5.004 0 0 1 5.004 5.004v7.992A5.004 5.004 0 0 1 19.921 25h-7.917C9.241 24.925 7 22.685 7 19.921v-7.917A5.004 5.004 0 0 1 12.004 7h7.917zm1.046 2.988c0 .522.448.97.97.97a.989.989 0 0 0 .972-.97.989.989 0 0 0-.971-.971.989.989 0 0 0-.971.97zm-10.008 5.975a5.004 5.004 0 1 0 10.008 0 5.004 5.004 0 0 0-10.008 0zm7.991 0a2.996 2.996 0 0 1-2.987 2.987 2.996 2.996 0 0 1-2.988-2.987 2.996 2.996 0 0 1 2.988-2.988 2.996 2.996 0 0 1 2.987 2.988z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                          <path fill="#191F28" fill-rule="evenodd"
+                            d="M15.975 3A5.025 5.025 0 0 1 21 8.025v8.025a5.025 5.025 0 0 1-5.025 5.025h-7.95C5.25 21 3 18.75 3 15.975v-7.95A5.025 5.025 0 0 1 8.025 3h7.95zm-2.531 7.294h-2.232v6.103h2.232V13.05l.007-.165c.076-.834.726-.95.912-.95.196 0 .787.196.787 1.115v3.347h2.1V13.05l-.004-.223c-.065-1.747-.891-2.533-1.9-2.533-1.05 0-1.64.328-1.902.853v-.853zm-4.069-.066H7.144v6.103h2.231v-6.103zm-1.05-3.216c-.787 0-1.247.46-1.247 1.05 0 .591.46 1.05 1.181 1.05.722 0 1.182-.459 1.182-1.05 0-.59-.46-1.05-1.116-1.05z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <span class="footer-cep">Todos os direitos reservados © Copyright 2023
+                </span>
+              </div>
+            </div>
+          </footer>
+    </div>
+</body>
+</html>
