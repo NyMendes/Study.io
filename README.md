@@ -1,1 +1,1 @@
-# Site educacional: noticia sobre o TDAH
+# Site educacional: notícia sobre o TDAH.
